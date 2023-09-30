@@ -77,11 +77,14 @@
 			<artifactId>jstl</artifactId>
 		</dependency>
 
-		<!-- cấu hình hibernate -->
+		<!-- cấu hình hiber -->
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<version>3.1.4</version>
 		</dependency>
+
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>

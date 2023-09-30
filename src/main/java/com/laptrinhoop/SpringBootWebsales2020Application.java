@@ -11,8 +11,7 @@ import org.springframework.context.ApplicationContext;
 
 
 /*
- * - @Enable yêu cầu boot thêm các bean dựa vào cài đặt classpath, các bean khác và thuộc tính khác nhau
- *
+ * -
  * */
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = {
